@@ -1,0 +1,6 @@
+Requirements:
+- mxnet
+- gluon
+- gluoncv
+- opencv-python
+- decord
