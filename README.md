@@ -24,6 +24,8 @@ After running the notebook and scripts included in the "Build" folder of this re
 
 * Follow the [AWS IoT Greengrass Getting Started documentation](https://docs.aws.amazon.com/greengrass/latest/developerguide/gg-gs.html) for setting up your edge device on the AWS IoT Core console.
 
+* Install the pre-requisites such as MXNet, Gluon, etc. as suggested on the [pre-requisites.txt](./deploy/pre-requisites.txt) file. Make sure you follow specific steps for your device e.g. MXNet official documentation for installing on Raspberry Pi, etc.
+
 * Copy both model files (extracting your model.tar.gz, or directly taking the json and params files included in this repo) to your edge device via SCP. Place those in a folder and bear in mind the users and permissions to the folder
 
 * When creating the AWS Lambda function, create two functions based on the scripts included in the "Build" folder of this repo:
