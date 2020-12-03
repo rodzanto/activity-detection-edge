@@ -30,13 +30,13 @@ After running the notebook and scripts included in the "Build" folder of this re
     * video-ps: Script for capturing the camera of the device and creating small videos for passing to the inference function - Note: For debugging purposes you can also skip this function and manually copying to your device the sample video included in this repo
     * greengrass-i3d-mxnet-ps: Function for loading the MXNet Gluon model and running the inferences on local videos at the device. Note you must adapt the model_path to the folder where you copied your model files
 
-<img src="./images/1.png" width="600">
+<img src="./images/1.png" width="800">
 
 * Deploy the AWS IoT Group to your edge device Core
 
 * Subscribe to the MQTT topic to verify that your instance is sending the messages with the probability of having a person falling to the floor within the last seconds
 
-<img src="./images/2.png" width="600">
+<img src="./images/2.png" width="800">
 
 
 #### **To be done - Work in progress:**
